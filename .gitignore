@@ -1,0 +1,9 @@
+**/node_modules/
+**/dist/
+.env
+.env.*.local
+**/.vercel/
+
+# Preserve upload directory placeholders, but never commit uploaded files.
+uploads/*/*
+!uploads/**/.gitkeep
